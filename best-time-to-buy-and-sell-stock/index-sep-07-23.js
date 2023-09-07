@@ -23,6 +23,7 @@
 // //// value of prices between 0 and really big
 
 /////////////// FIRST ATTEMPT, NOT SUCCESSFUL ////////////////////////
+//////////////// tried a two pointer strategy ////////////////////////
 
 // const example1 = [7, 200, 3, 6, 4]
 // const example2 = [7, 6, 4, 3, 1]
@@ -96,3 +97,6 @@ function maxProfit(prices) {
   }
   
   console.log(maxProfit([1, 2, 3, 4, 10]))
+
+  // Time Complexity: O(n) (scales linearly with length of `prices`)
+  // Space Complexity: O(1) (There two variables and they don't grow, so constant)
