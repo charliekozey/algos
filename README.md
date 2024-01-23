@@ -1,9 +1,13 @@
-## Algo Strategies and Patterns
+# Algo Strategies and Patterns
+
+## Definitions
 
 ### Space Complexity
 Can depend on: 
 - data structures that grow in some proportion to input
 - a call stack that grows in some proportion to input
+
+## Strategies
 
 ### Iterate once while keeping track of global max/mins
 Rather than comparing each element to every other element, keep track of relevant max/mins as you go
